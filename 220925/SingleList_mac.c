@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
+#include <stdlib.h> // mac에서 malloc을 사용하기 위해선 stdlib가 필요함
 
 typedef struct NODE {
     char szData[64];
